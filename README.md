@@ -1,7 +1,7 @@
 # COS-470-Project-Part-II-
 SimpleText Task 2 baseline by prompting Meta's Llama 2. 
 
-# How to Run and Reproduce Results
+## How to Run and Reproduce Results
 To reproduce the baseline evaluation results, there are two main parts: 
 
 First run the Google Colab file, making sure to properly authenticate the usage of Llama 2 by running the top code block and inputting a Hugging Face API key, say no to everything that follows. Insert the "task2_test.tsv" file into the Colab file tab so it can read the queries off of it. This code may take a while to run, so in this repo there is a provided "results.tsv" file that contains the results that will be gotten from running that Colab file. If you wish to run the Colab file, expect around a 7-minute wait to run the 6 queries. After Colab finishes running, it will produce a "results.tsv" file, that will be used for the next part of getting the evaluation results. 
